@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: { ignoreDuringBuilds: true },   // <-- add this line
+  eslint: { ignoreDuringBuilds: true },
   experimental: {
     serverActions: { allowedOrigins: ['*'] }
   }
